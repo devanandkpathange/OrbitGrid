@@ -1,4 +1,4 @@
-# 🌐 Orbit Grid (GridPoint)
+# 🌐 Orbit Grid 
 ### Autonomous Geographic Intelligence, Multi-Facility Location Optimization & Fine-Tuned AI Logistics Engine for India
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
