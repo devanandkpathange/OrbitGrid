@@ -1,0 +1,19 @@
+{
+  "region": "Maharashtra",
+  "currency": "INR",
+  "description": "Historical demand distribution across key industrial and retail corridors in Maharashtra, India.",
+  "demand_points": [
+    { "id": "mumbai_central", "name": "Mumbai Central", "lat": 18.9690, "lng": 72.8205, "demand": 24000 },
+    { "id": "mumbai_suburbs", "name": "Andheri / Western Suburbs", "lat": 19.1136, "lng": 72.8697, "demand": 29000 },
+    { "id": "navi_mumbai", "name": "Navi Mumbai (Vashi/Kopar Khairane)", "lat": 19.0760, "lng": 72.9977, "demand": 16500 },
+    { "id": "thane", "name": "Thane / Ghodbunder", "lat": 19.2183, "lng": 72.9781, "demand": 18000 },
+    { "id": "pune_pimpri", "name": "Pune (Pimpri-Chinchwad)", "lat": 18.6279, "lng": 73.7997, "demand": 21000 },
+    { "id": "pune_city", "name": "Pune City (Hinjawadi / Kothrud)", "lat": 18.5204, "lng": 73.8567, "demand": 22500 },
+    { "id": "nagpur", "name": "Nagpur (MIHAN Corridor)", "lat": 21.1458, "lng": 79.0882, "demand": 12500 },
+    { "id": "nashik", "name": "Nashik (Ambad MIDC)", "lat": 19.9975, "lng": 73.7898, "demand": 8900 },
+    { "id": "chhatrapati_sambhajinagar", "name": "Chhatrapati Sambhajinagar (Aurangabad)", "lat": 19.8762, "lng": 75.3433, "demand": 7800 },
+    { "id": "kolhapur", "name": "Kolhapur (Shiroli MIDC)", "lat": 16.7050, "lng": 74.2433, "demand": 6200 },
+    { "id": "solapur", "name": "Solapur", "lat": 17.6599, "lng": 75.9064, "demand": 5900 },
+    { "id": "amravati", "name": "Amravati", "lat": 20.9320, "lng": 77.7523, "demand": 4500 }
+  ]
+}

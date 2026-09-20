@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ORBIT GRID — 2.5-Min Video Script Cheat Sheet</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: #0B0F19;
+      color: #E2E8F0;
+      padding: 30px 20px;
+      line-height: 1.5;
+    }
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 25px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding-bottom: 15px;
+    }
+    h1 {
+      font-size: 24px;
+      font-weight: 800;
+      color: #38BDF8;
+      letter-spacing: 1px;
+    }
+    .sub {
+      color: #94A3B8;
+      font-size: 13px;
+      margin-top: 4px;
+    }
+    .step-card {
+      background: rgba(17, 24, 39, 0.9);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin-bottom: 14px;
+      display: flex;
+      gap: 16px;
+    }
+    .time-badge {
+      min-width: 90px;
+      height: 40px;
+      background: #1E293B;
+      border: 1px solid #334155;
+      border-radius: 6px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      font-weight: 700;
+      color: #38BDF8;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .time-badge small {
+      font-size: 10px;
+      color: #94A3B8;
+    }
+    .content {
+      flex: 1;
+    }
+    .title {
+      font-size: 15px;
+      font-weight: 700;
+      color: #F8FAFC;
+      margin-bottom: 6px;
+    }
+    .action {
+      font-size: 12px;
+      color: #38BDF8;
+      background: rgba(56, 189, 248, 0.08);
+      padding: 6px 10px;
+      border-radius: 6px;
+      margin-bottom: 8px;
+    }
+    .action strong {
+      color: #7DD3FC;
+    }
+    .say {
+      font-size: 14px;
+      color: #E2E8F0;
+      background: rgba(255, 255, 255, 0.03);
+      border-left: 3px solid #10B981;
+      padding: 8px 12px;
+      border-radius: 0 6px 6px 0;
+    }
+    .say strong {
+      color: #34D399;
+    }
+    .btn-print {
+      display: inline-block;
+      margin-top: 15px;
+      background: #2563EB;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 8px 18px;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+    }
+    @media print {
+      body { background: #fff; color: #000; padding: 10px; }
+      .step-card { background: #fff; border: 1px solid #ccc; page-break-inside: avoid; }
+      .time-badge { background: #f1f5f9; color: #000; border-color: #cbd5e1; }
+      .action { background: #f8fafc; color: #0369a1; }
+      .say { background: #f8fafc; color: #000; border-left-color: #059669; }
+      .btn-print { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>ORBIT GRID — DEMO VIDEO SCRIPT</h1>
+      <div class="sub">2.5-Minute Hackathon Recording Cheat Sheet • Easy Words & Direct Instructions</div>
+      <button class="btn-print" onclick="window.print()">🖨️ Print / Save as PDF</button>
+    </div>
+
+    <!-- Step 1 -->
+    <div class="step-card">
+      <div class="time-badge">
+        0:00 - 0:20
+        <small>20s</small>
+      </div>
+      <div class="content">
+        <div class="title">1. The Problem &amp; What Orbit Grid Does</div>
+        <div class="action"><strong>SCREEN:</strong> Show browser on <code>http://127.0.0.1:8000/</code> (Login Page).</div>
+        <div class="say">
+          “In India, companies waste billions of rupees on transport because they guess where to place warehouses.<br><br>
+          This is <strong>Orbit Grid</strong>—a fast, intelligent system that calculates the exact best warehouse locations automatically at zero cost.”
+        </div>
+      </div>
+    </div>
+
+    <!-- Step 2 -->
+    <div class="step-card">
+      <div class="time-badge">
+        0:20 - 0:40
+        <small>20s</small>
+      </div>
+      <div class="content">
+        <div class="title">2. Easy Evaluator Login &amp; Map View</div>
+        <div class="action"><strong>CLICK:</strong> <strong>"1-Click Hackathon Evaluator Access"</strong> &rarr; Scroll down to Command Center.</div>
+        <div class="say">
+          “Judges can log in instantly with our 1-click access button.<br><br>
+          This brings us to the live Command Center—a clean, fast interactive map built specifically for Indian logistics.”
+        </div>
+      </div>
+    </div>
+
+    <!-- Step 3 -->
+    <div class="step-card">
+      <div class="time-badge">
+        0:40 - 1:15
+        <small>35s</small>
+      </div>
+      <div class="content">
+        <div class="title">3. Clean Slate &amp; Business Setup</div>
+        <div class="action"><strong>CLICK:</strong> <strong>"Business &amp; Network Setup"</strong> &rarr; Type <i>"Textiles"</i> &bull; Existing Hub: <i>"Pune"</i> &bull; Warehouses: <i>2</i> &rarr; Click <strong>"Apply Setup"</strong>.</div>
+        <div class="say">
+          “The map starts completely clean without fake data. In the Business Setup window, we enter our business type and our current warehouse in Pune.<br><br>
+          The system marks our Pune hub in amber and prepares to optimize new warehouses around it.”
+        </div>
+      </div>
+    </div>
+
+    <!-- Step 4 -->
+    <div class="step-card">
+      <div class="time-badge">
+        1:15 - 1:50
+        <small>35s</small>
+      </div>
+      <div class="content">
+        <div class="title">4. 1-Click Solver &amp; Instant Savings</div>
+        <div class="action"><strong>SELECT:</strong> Region: <strong>Maharashtra</strong> &rarr; <strong>CLICK:</strong> "Run Optimization Solver" &rarr; Show WH-1 &amp; WH-2 appear &bull; Point to 77% Distance Reduction on top.</div>
+        <div class="say">
+          “Next, we select Maharashtra and click 'Run Optimization'. In just 3 milliseconds, it calculates optimal locations and connects them directly to real industrial zones like Chakan MIDC.<br><br>
+          Delivery distance drops by 77%, cutting transport costs by 64%!”
+        </div>
+      </div>
+    </div>
+
+    <!-- Step 5 -->
+    <div class="step-card">
+      <div class="time-badge">
+        1:50 - 2:20
+        <small>30s</small>
+      </div>
+      <div class="content">
+        <div class="title">5. Viability Report, Green ESG &amp; AI Copilot</div>
+        <div class="action"><strong>CLICK:</strong> <strong>"Viability Dossier"</strong> (show modal, close) &bull; Point to Green ESG cards &bull; Click <strong>"AI Copilot"</strong>.</div>
+        <div class="say">
+          “Clicking 'Viability Dossier' gives us a full financial cost and rent breakdown.<br><br>
+          It also tracks green impact, showing saved diesel and CO2 reduction. Our built-in AI Copilot clearly explains the business strategy behind each hub.”
+        </div>
+      </div>
+    </div>
+
+    <!-- Step 6 -->
+    <div class="step-card">
+      <div class="time-badge">
+        2:20 - 2:45
+        <small>25s</small>
+      </div>
+      <div class="content">
+        <div class="title">6. Auto-Save &amp; Conclusion</div>
+        <div class="action"><strong>CLICK:</strong> <strong>"Save Analysis"</strong> &rarr; Point to <strong>"Presentation Deck"</strong> in top navigation.</div>
+        <div class="say">
+          “All results save directly to our database so nothing is lost. We also built an interactive 10-slide presentation deck right into the app.<br><br>
+          Orbit Grid turns weeks of manual consulting into an instant decision. Thank you!”
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

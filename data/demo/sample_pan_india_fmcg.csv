@@ -1,0 +1,21 @@
+City,State,Demand_Orders,Category
+Mumbai,Maharashtra,45000,FMCG & Consumer Goods
+Bengaluru,Karnataka,38000,FMCG & Consumer Goods
+Delhi,Delhi,42000,FMCG & Consumer Goods
+Chennai,Tamil Nadu,29000,FMCG & Consumer Goods
+Hyderabad,Telangana,31000,FMCG & Consumer Goods
+Pune,Maharashtra,22000,FMCG & Consumer Goods
+Ahmedabad,Gujarat,24000,FMCG & Consumer Goods
+Kolkata,West Bengal,28000,FMCG & Consumer Goods
+Jaipur,Rajasthan,17000,FMCG & Consumer Goods
+Lucknow,Uttar Pradesh,19000,FMCG & Consumer Goods
+Nagpur,Maharashtra,14000,FMCG & Consumer Goods
+Indore,Madhya Pradesh,15000,FMCG & Consumer Goods
+Coimbatore,Tamil Nadu,13000,FMCG & Consumer Goods
+Surat,Gujarat,18000,FMCG & Consumer Goods
+Kochi,Kerala,12000,FMCG & Consumer Goods
+Bhopal,Madhya Pradesh,11000,FMCG & Consumer Goods
+Patna,Bihar,16000,FMCG & Consumer Goods
+Vadodara,Gujarat,11500,FMCG & Consumer Goods
+Ludhiana,Punjab,12500,FMCG & Consumer Goods
+Visakhapatnam,Andhra Pradesh,13500,FMCG & Consumer Goods

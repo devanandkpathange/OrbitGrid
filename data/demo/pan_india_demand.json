@@ -1,0 +1,19 @@
+{
+  "region": "Pan-India",
+  "currency": "INR",
+  "description": "National logistics demand across major Indian metropolitan clusters and regional distribution hubs.",
+  "demand_points": [
+    { "id": "delhi_ncr", "name": "Delhi NCR (Gurgaon / Noida)", "lat": 28.6139, "lng": 77.2090, "demand": 48000 },
+    { "id": "mumbai_mmr", "name": "Mumbai Metropolitan Region", "lat": 19.0760, "lng": 72.8777, "demand": 52000 },
+    { "id": "bengaluru", "name": "Bengaluru Urban", "lat": 12.9716, "lng": 77.5946, "demand": 41000 },
+    { "id": "hyderabad", "name": "Hyderabad / Cyberabad", "lat": 17.3850, "lng": 78.4867, "demand": 33000 },
+    { "id": "chennai", "name": "Chennai Corridor", "lat": 13.0827, "lng": 80.2707, "demand": 29000 },
+    { "id": "kolkata", "name": "Kolkata / Howrah", "lat": 22.5726, "lng": 88.3639, "demand": 26000 },
+    { "id": "ahmedabad", "name": "Ahmedabad / Sanand", "lat": 23.0225, "lng": 72.5714, "demand": 24000 },
+    { "id": "pune", "name": "Pune Industrial Area", "lat": 18.5204, "lng": 73.8567, "demand": 22000 },
+    { "id": "jaipur", "name": "Jaipur", "lat": 26.9124, "lng": 75.7873, "demand": 14000 },
+    { "id": "lucknow", "name": "Lucknow / Kanpur", "lat": 26.8467, "lng": 80.9462, "demand": 15500 },
+    { "id": "kochi", "name": "Kochi / Ernakulam", "lat": 9.9312, "lng": 76.2673, "demand": 12000 },
+    { "id": "indore", "name": "Indore / Pithampur", "lat": 22.7196, "lng": 75.8577, "demand": 11500 }
+  ]
+}
